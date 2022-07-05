@@ -28,6 +28,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	width: 50%;
+	padding-right: 50px;
 }
 
 .coluna-phone img{
@@ -49,8 +50,8 @@ body{
 	align-items: center;
 	flex-direction: column;
 	background-color: white;
-	width: 360px;
-	padding: 30px 0;
+	width: 100%;
+	padding: 25px 0;
 	border: 1px solid lightgray;
 }
 
@@ -131,6 +132,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+	margin-top: 10px;
 	height: 2px;
 }
 
@@ -152,8 +154,7 @@ body{
 }
 
 .get-app{
-	padding-top: 15px;
-	padding-bottom: 12px;
+	padding-top: 12px;
 }
 
 .download{
@@ -166,7 +167,7 @@ body{
 
 .download-app{
 	height: 3rem;
-	width: 10rem;
+	width: 10.2rem;
 	background-size: cover;
 }
 
@@ -180,3 +181,25 @@ body{
 
 /* mobile */
 
+@media (max-width: 1024px){
+	.colunas{
+		width: 90%;
+	}
+}
+
+@media (max-width: 650px){
+	.colunas{
+		width: 90%;
+	}
+	.coluna-phone{
+		display: none;
+	}
+	
+	.coluna-instagram{
+		width: 100%;
+	}
+	
+	.coluna-login{
+		border: 1px solid transparent;
+	}
+}
