@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-string: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body{
+	width: 100%;
+	min-width: 100vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.colunas{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 60%;
+	height: 100vh;
+}
+
+.coluna-phone{
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.coluna-phone img{
+	height: 25rem;
+}
+
+.coluna-instagram{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+	min-height: 40rem;
+}
+
+.coluna-login{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	width: 360px;
+	padding: 30px 0;
+	border: 1px solid lightgray;
+}
+
+.coluna-login img{
+	height: 5rem;
+}
+
+.coluna-login .dados{
+	display: flex;
+	align-items: space-between;
+	flex-direction: column;
+	background-color: white;
+	padding: 30px;
+	text-align: center;
+	color: gray;
+	width: 280px;
+}
+
+.coluna-login .dados .user{
+	display: flex;
+	border: 1px solid lightgray;
+	margin-bottom: 5px;
+	height: 22px;
+	align-items: center;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.coluna-login .dados .password{
+	display: flex;
+	border: 1px solid lightgray;
+	height: 20px;
+	align-items: center;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.log-in{
+	background-color: #0095f6;
+	color: white;
+	padding: 8px;
+	border-radius: 4px;
+	width: 265px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.login-facebook{
+	color: #3b5998;
+	font-weight: 700;
+	font-size: 12px;
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+}
+
+.login-facebook img{
+	height: 15px;
+	margin-right: 10px;
+}
+
+.ou{
+	color: gray;
+	font-size: 12px;
+}
+
+.forgot-password{
+	color: black;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	font-size: 11px;
+}
+
+.not-account{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height: 2px;
+}
+
+.sub{
+	margin-left: 5px;
+}
+
+.sub a{
+	color: #0095f6;
+}
+
+.get-the-app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.get-app{
+	padding-top: 15px;
+	padding-bottom: 12px;
+}
+
+.download{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.download-app{
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.download-app:nth-child(1){
+	background-image: url("./images/download-apple.png");
+}
+
+.download-app:nth-child(2){
+	background-image: url("./images/download-android.png");
+}
+
+/* mobile */
+
